@@ -60,3 +60,8 @@ def exclude_fast_responses(response_times, threshold):
     is_included = response_times <= threshold
     filtered = response_times[is_included]
     return filtered, is_included
+
+
+def ismissing(res):
+  """Chek if each value is an array is "n/a"""
+  return res == "n/a"
