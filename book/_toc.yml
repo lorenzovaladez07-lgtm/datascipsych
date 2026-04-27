@@ -42,9 +42,13 @@ parts:
       sections:
       - file: chapters/chapter10/review
     - file: chapters/chapter11/reporting
+      sections:
+      - file: chapters/chapter11/review
   - caption: Code development
     numbered: 2
     chapters:
     - file: chapters/chapter12/software_packages
+      sections:
+      - file: chapters/chapter12/review
     - file: chapters/chapter13/coding_best_practices
     - file: chapters/chapter14/project_iteration
