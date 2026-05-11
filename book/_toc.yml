@@ -52,3 +52,5 @@ parts:
       - file: chapters/chapter12/review
     - file: chapters/chapter13/coding_best_practices
     - file: chapters/chapter14/project_iteration
+      sections:
+      - file: chapters/chapter14/review
